@@ -1,0 +1,5 @@
+C:\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Metadata.Qualities.Naaccr.Converters\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.Metadata.Qualities.Naaccr.Converters.dll
+C:\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Metadata.Qualities.Naaccr.Converters\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.Metadata.Qualities.Naaccr.Converters.pdb
+C:\DevSource\Tamu\GeoInnovation\Geocoding\Core.Metadata.Qualities.Naaccr.Converters\src\Main\obj\Debug\Geocoding.Core.Metadata.Qualities.Naaccr.Converters.csprojResolveAssemblyReference.cache
+C:\DevSource\Tamu\GeoInnovation\Geocoding\Core.Metadata.Qualities.Naaccr.Converters\src\Main\obj\Debug\Tamu.GeoInnovation.Geocoding.Core.Metadata.Qualities.Naaccr.Converters.dll
+C:\DevSource\Tamu\GeoInnovation\Geocoding\Core.Metadata.Qualities.Naaccr.Converters\src\Main\obj\Debug\Tamu.GeoInnovation.Geocoding.Core.Metadata.Qualities.Naaccr.Converters.pdb
