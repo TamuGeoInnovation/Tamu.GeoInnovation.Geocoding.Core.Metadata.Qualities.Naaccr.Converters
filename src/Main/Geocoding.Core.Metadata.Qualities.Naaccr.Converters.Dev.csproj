@@ -92,78 +92,6 @@
     </Reference>
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml" />
-    <Reference Include="Tamu.GeoInnovation.AddressProcessing.Core">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\AddressProcessing\AddressProcessing.Core\build\2.9.3\release\Tamu.GeoInnovation.AddressProcessing.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Census">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Census\build\1.0.0\release\Tamu.GeoInnovation.Common.Census.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Addresses">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Addresses\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Addresses.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Configurations">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Configurations\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Configurations.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.ExceptionHandling">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\ExceptionHandling\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.ExceptionHandling.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.GeographicFeatures.Streets">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.GeographicFeatures.Streets\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.GeographicFeatures.Streets.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.Geometries">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.Geometries\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.Geometries.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.Units">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.Units\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.Units.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Core.Utils">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Utils\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Utils.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Common.Data.Databases">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Data\Databases\build\1.0.0\release\Tamu.GeoInnovation.Common.Data.Databases.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.MatchedFeature">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Algorithms.FeatureMatching.MatchedFeatures\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatching.MatchedFeature.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Geocoding.Core.Configurations">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Configurations\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.Configurations.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Geocoding.Core.Metadata.Qualities.MatchTypes">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Metadata.Qualities.MatchTypes\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.Metadata.Qualities.MatchTypes.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Geocoding.Core.Metadata.Qualities.Naaccr.Types">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Metadata.Qualities.Naaccr.Types\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.Metadata.Qualities.Naaccr.Types.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Geocoding.Core.OutputData">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.OutputData\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.OutputData.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Geocoding.Core.Queries">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.Queries\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.Queries.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Tamu.GeoInnovation.Geocoding.Core.ReferenceDatasets.ReferenceFeatures">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Geocoding\Core.ReferenceDatasets.ReferenceFeatures\build\1.0.0\release\Tamu.GeoInnovation.Geocoding.Core.ReferenceDatasets.ReferenceFeatures.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="TAMU.GeoInnovation.PointIntersectors.Census">
-      <HintPath>..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\PointIntersectors\PointIntersectors.Census\build\1.0.0\release\TAMU.GeoInnovation.PointIntersectors.Census.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Metadata\Qualities\NAACCRGISCoordinateQualityConverter.cs" />
@@ -207,6 +135,63 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common.Core.Addresses\Src\Main\Common.Core.Addresses.Dev.csproj">
+      <Project>{29C0949B-4D41-4138-B59B-6DE4A6A1774E}</Project>
+      <Name>Common.Core.Addresses.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Configurations\Src\Main\Common.Core.Configurations.Dev.csproj">
+      <Project>{CA57DD09-BCF7-439A-A6FB-6FCBE125FB71}</Project>
+      <Name>Common.Core.Configurations.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Common.Core.Geo.GeographicFeatures.Streets\Src\Main\Common.Core.Geo.GeographicFeatures.Streets.Dev.csproj">
+      <Project>{0C225E8B-E8AA-4AC2-A5BA-4B00AE357311}</Project>
+      <Name>Common.Core.Geo.GeographicFeatures.Streets.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geocoding.Core.Algorithms.FeatureMatching.MatchedFeature\src\Main\Geocoding.Core.Algorithms.FeatureMatching.MatchedFeature.Dev.csproj">
+      <Project>{8D4887D7-7595-4F08-A1DE-2B8D6FBC220F}</Project>
+      <Name>Geocoding.Core.Algorithms.FeatureMatching.MatchedFeature.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geocoding.Core.Configurations\src\Main\Geocoding.Core.Configurations.Dev.csproj">
+      <Project>{0D43D32A-C1F4-4D7C-B70B-3B7AE9D8CE03}</Project>
+      <Name>Geocoding.Core.Configurations.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geocoding.Core.Metadata.Qualities.MatchTypes\src\Main\Geocoding.Core.Metadata.Qualities.MatchTypes.Dev.csproj">
+      <Project>{EC0D4BA3-E997-4584-9EE1-87DBACE7BFD3}</Project>
+      <Name>Geocoding.Core.Metadata.Qualities.MatchTypes.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geocoding.Core.Metadata.Qualities.Naaccr.Types\src\Main\Geocoding.Core.Metadata.Qualities.Naaccr.Types.Dev.csproj">
+      <Project>{50628EB4-3848-4256-819C-842A3B208319}</Project>
+      <Name>Geocoding.Core.Metadata.Qualities.Naaccr.Types.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geocoding.Core.OutputData\src\Main\Geocoding.Core.OutputData.Dev.csproj">
+      <Project>{AC115040-D3EE-4AB7-A3E5-5842724ACC15}</Project>
+      <Name>Geocoding.Core.OutputData.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geocoding.Core.Queries\src\Main\Geocoding.Core.Queries.Dev.csproj">
+      <Project>{A1CEFF20-E839-47DE-88C4-06A8AD225221}</Project>
+      <Name>Geocoding.Core.Queries.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geocoding.Core.ReferenceDatasets.ReferenceFeatures\src\Main\Geocoding.Core.ReferenceDatasets.ReferenceFeatures.Dev.csproj">
+      <Project>{EE959596-3EE0-4CE2-AA08-A707360AA23D}</Project>
+      <Name>Geocoding.Core.ReferenceDatasets.ReferenceFeatures.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\PointIntersectors.Census\src\Main\PointIntersectors.Census.Dev.csproj">
+      <Project>{5328FADB-9D7C-410A-877E-F03E08367D9C}</Project>
+      <Name>PointIntersectors.Census.Dev</Name>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!--  
