@@ -1,1 +1,0 @@
-C:\DevSource\Tamu\GeoInnovation\Geocoding\Core.Metadata.Qualities.Naaccr\src\Main\obj\Release\Geocoding.Core.Metadata.Qualities.Naaccr.csprojResolveAssemblyReference.cache
