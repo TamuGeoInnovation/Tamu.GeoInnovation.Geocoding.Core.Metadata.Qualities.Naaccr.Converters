@@ -7,25 +7,27 @@ using USC.GISResearchLab.Geocoding.Core.OutputData;
 namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
 {
 
-    public enum NAACCRGISCoordinateQualityType
-    {
-        Unknown,
-        AddressPoint,
-        GPS,
-        Parcel,
-        StreetSegmentInterpolation,
-        StreetIntersection,
-        StreetCentroid,
-        AddressZIPPlus4Centroid,
-        AddressZIPPlus2Centroid,
-        ManualLookup,
-        AddressZIPCentroid,
-        POBoxZIPCentroid,
-        CityCentroid,
-        CountyCentroid,
-        Unmatchable,
-        Missing
-    }
+    // this was moved to Geocoding.Core.Metadata.Qualities.Naaccr.Types project instead of having it here.
+
+    //public enum NAACCRGISCoordinateQualityType
+    //{
+    //    Unknown,
+    //    AddressPoint,
+    //    GPS,
+    //    Parcel,
+    //    StreetSegmentInterpolation,
+    //    StreetIntersection,
+    //    StreetCentroid,
+    //    AddressZIPPlus4Centroid,
+    //    AddressZIPPlus2Centroid,
+    //    ManualLookup,
+    //    AddressZIPCentroid,
+    //    POBoxZIPCentroid,
+    //    CityCentroid,
+    //    CountyCentroid,
+    //    Unmatchable,
+    //    Missing
+    //}
 
     public class NAACCRGISCoordinateQualityConverter
     {
