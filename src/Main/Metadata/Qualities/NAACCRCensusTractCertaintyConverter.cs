@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Data;
-using USC.GISResearchLab.Census.Core.Configurations.ServerConfigurations;
+
 using USC.GISResearchLab.Common.Addresses.AbstractClasses;
 
 using USC.GISResearchLab.Geocoding.Core.Queries.Parameters;
 using USC.GISResearchLab.Geocoding.Core.OutputData;
 using USC.GISResearchLab.Geocoding.Core.Configurations;
+using USC.GISResearchLab.Census.Core.Configurations.ServerConfigurations;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
 {
