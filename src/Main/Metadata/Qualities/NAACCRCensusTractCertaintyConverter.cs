@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Data;
-
-using USC.GISResearchLab.Common.Addresses.AbstractClasses;
-
-using USC.GISResearchLab.Geocoding.Core.Queries.Parameters;
-using USC.GISResearchLab.Geocoding.Core.OutputData;
-using USC.GISResearchLab.Geocoding.Core.Configurations;
 using USC.GISResearchLab.Census.Core.Configurations.ServerConfigurations;
+using USC.GISResearchLab.Common.Addresses.AbstractClasses;
+using USC.GISResearchLab.Geocoding.Core.Configurations;
+using USC.GISResearchLab.Geocoding.Core.OutputData;
+using USC.GISResearchLab.Geocoding.Core.Queries.Parameters;
 
 namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
 {
@@ -58,7 +56,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
         public const string NAACCR_CENSUS_TRACT_CERTAINTY_DESCRIPTION_NOT_ATTEMPTED = "Not assigned, geocoding not attempted";
         public const string NAACCR_CENSUS_TRACT_CERTAINTY_DESCRIPTION_UNMATCHABLE = "Geocoding attempted, unable to assign";
         public const string NAACCR_CENSUS_TRACT_CERTAINTY_DESCRIPTION_UNKNOWN = "Unknown";
-       
+
 
         public static DataTable GetAllQualities()
         {
@@ -82,7 +80,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
                 ret.Rows.Add(row);
             }
 
-           
+
             return ret;
         }
 
@@ -109,7 +107,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
 
         public static NAACCRCensusTractCertaintyType GetNAACCRCensusTractCertaintyTypeForGeocode(IGeocode geocode, CensusYear censusYear)
         {
-           
+
             NAACCRCensusTractCertaintyType ret = NAACCRCensusTractCertaintyType.Unknown;
 
             GeocodeQualityType geocodeQualityType = geocode.GeocodeQualityType;
@@ -209,7 +207,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
                         case GeocodeQualityType.Unmatchable:
                             ret = NAACCRCensusTractCertaintyType.Missing;
                             break;
-                        
+
 
                         case GeocodeQualityType.USPSZipPlus4LineCentroid:
                             if (addressLocationTypes == AddressLocationTypes.PostOfficeBox)
@@ -221,7 +219,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
                                 ret = NAACCRCensusTractCertaintyType.ResidenceZIPPlus4;
                             }
                             break;
-                        
+
                         case GeocodeQualityType.USPSZipPlus5LineCentroid:
                             ret = NAACCRCensusTractCertaintyType.Missing;
                             break;
@@ -231,8 +229,8 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
                         case GeocodeQualityType.ZCTACentroid:
 
 
-                            if (addressLocationTypes == AddressLocationTypes.PostOfficeBox 
-                                || addressLocationTypes == AddressLocationTypes.HighwayContractRoute 
+                            if (addressLocationTypes == AddressLocationTypes.PostOfficeBox
+                                || addressLocationTypes == AddressLocationTypes.HighwayContractRoute
                                 || addressLocationTypes == AddressLocationTypes.RuralRoute
                                 || addressLocationTypes == AddressLocationTypes.StarRoute
                                 || geocode.MatchedFeature.MatchedReferenceFeature.StreetAddressableGeographicFeature.ZIPCodeType == ZIPCodeType.POBox
@@ -546,7 +544,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
 
                 default:
                     throw new Exception("Unexpected NAACCRCensusTractCertaintyType: " + t);
-                
+
             }
             return ret;
         }
@@ -587,7 +585,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
                     ret = NAACCR_CENSUS_TRACT_CERTAINTY_DESCRIPTION_UNMATCHABLE;
                     break;
 
-                
+
                 default:
                     throw new Exception("Unexpected NAACCRCensusTractCertaintyType: " + t);
             }

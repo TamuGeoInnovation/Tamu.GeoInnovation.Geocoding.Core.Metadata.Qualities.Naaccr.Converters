@@ -32,7 +32,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
     public class NAACCRGISCoordinateQualityConverter
     {
 
-        
+
         public const string NAACCR_GIS_COORDINATE_QUALITY_NAME_ADDRESS_POINT = "QUALITY_ADDRESS_POINT";
         public const string NAACCR_GIS_COORDINATE_QUALITY_NAME_GPS = "QUALITY_GPS";
         public const string NAACCR_GIS_COORDINATE_QUALITY_NAME_PARCEL_CENTROID = "QUALITY_PARCEL_CENTROID";
@@ -102,7 +102,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
         public const string NAACCR_GIS_COORDINATE_QUALITY_DESCRIPTION_UNMATCHABLE = "Latitude and longitude are not assigned, but geocoding was attempted; unable to assign coordinates based on available information";
         public const string NAACCR_GIS_COORDINATE_QUALITY_DESCRIPTION_MISSING = "GIS Coordinate Quality not coded";
 
-       
+
 
         public static DataTable GetAllQualities()
         {
@@ -126,7 +126,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
                 ret.Rows.Add(row);
             }
 
-           
+
             return ret;
         }
 
@@ -370,7 +370,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
             {
                 ret = NAACCRGISCoordinateQualityType.Unmatchable;
             }
-           
+
             else
             {
                 throw new Exception("Unexpected GISCoordinateQualityType: " + quality);
@@ -507,7 +507,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
                 case NAACCRGISCoordinateQualityType.Unmatchable:
                     ret = NAACCR_GIS_COORDINATE_QUALITY_NAME_UNMATCHABLE;
                     break;
-               
+
 
                 default:
                     throw new Exception("Unexpected GISCoordinateQualityType: " + t);
@@ -582,7 +582,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
             return ret;
         }
 
-        
+
 
         public static string GetNAACCRGISCoordinateQualityShortName(NAACCRGISCoordinateQualityType t)
         {
@@ -640,7 +640,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
 
                 default:
                     throw new Exception("Unexpected GISCoordinateQualityType: " + t);
-                
+
             }
             return ret;
         }
@@ -698,7 +698,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.Qualities
                 case NAACCRGISCoordinateQualityType.Unmatchable:
                     ret = NAACCR_GIS_COORDINATE_QUALITY_DESCRIPTION_UNMATCHABLE;
                     break;
-                
+
                 default:
                     throw new Exception("Unexpected GISCoordinateQualityType: " + t);
             }
